@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: Arial, 'sans-serif';
+  font-weight: bold;
+  font-size: 3em;
+}
+
+/* main page */
+
+.menu {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/gradient.png');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  list-style: none;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 33.3334%;
+  text-align: center;
+}
+
+.menu-link {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #212121;
+  line-height: 33.3334vh;
+  text-align: center;
+  transition: .5s;
+}
+
+.menu-link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* static page */
+
+.static {
+  position: relative;
+}
+
+.static p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.static-black-text p {
+  color: #000;
+}
+
+.static-image {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.static-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/1.jpg');
+}
+
+.static-2 {
+  height: 50vh;
+  background-color: #707070;
+}
+
+.static-3 {
+  width: 100%;
+  height: 50vh;
+  background-image:  url('../img/2.jpg');
+}
+
+.static-4 {
+  width: 100%;
+  height: 100vh;
+  background-image:  url('../img/3.jpg');
+}
