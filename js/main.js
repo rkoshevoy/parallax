@@ -15,3 +15,7 @@ window.onload = function() {
     fadeOutnojquery(preloader);
   }, 500);
 };
+
+$(window).scroll(function() {
+  
+});

@@ -34,6 +34,25 @@ body {
   }
 }
 
+.text-position {
+  position: relative;
+  font-size: 3em;
+}
+
+.text-position p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.black-text p {
+  color: #000;
+}
+
 /* preloader */
 
 #preloader {
@@ -56,6 +75,7 @@ body {
   height: 100%;
   background-image: url('../img/gradient.png');
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   font-size: 3em;
 }
@@ -94,28 +114,11 @@ body {
 
 /* static page */
 
-.static {
-  position: relative;
-  font-size: 3em;
-}
-
-.static p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.static-black-text p {
-  color: #000;
-}
-
 .static-image {
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .static-1 {
@@ -140,3 +143,5 @@ body {
   height: 100vh;
   background-image:  url('../img/3.jpg');
 }
+
+/* second way */
